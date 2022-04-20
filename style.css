@@ -11,7 +11,7 @@ body {
  background-color: #f4f4f4;
  padding: 0;
  }
-/* html and body  styling ends here */
+
 /* The container  styling */
 .wrapper {
     background-image: url(./Images/illustration-header-mobile.png);
@@ -29,7 +29,7 @@ body {
  .wrapper > * {
      flex: 1 1 auto;
  }
-/* The container styling ends here */
+ 
 /* Navbar styling starts her */
 .navbar-section {
     display: flex;
@@ -37,8 +37,8 @@ body {
     justify-content: space-between;
     padding: 20px 24px;
     background: #3c3a39;
-}    
-  /* Navbar styling ends here */   
+}  
+
 /*  header styling starts here */
 header{
     background-color: #1c1a19;
