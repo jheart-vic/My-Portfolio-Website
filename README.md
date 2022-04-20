@@ -4,6 +4,5 @@
 - Html
 - Css
 ### Authors
-}
 :guardsman: Akabueze Victor 
 > Github [@jheart-vic](https//github.com/jheart-vic/)
