@@ -55,7 +55,7 @@ body {
 .header-smaller-text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
 }
@@ -103,7 +103,7 @@ img:hover {
 }
 
 .work-section-heading h2 {
-  font-family: 'Crete Round' sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   padding: 50px 0 38px 0;
   text-align: center;
@@ -111,11 +111,11 @@ img:hover {
   width: 327px;
   font-size: 38px;
   line-height: 48px;
-  color:  #1c1a19;
+  color:#1c1a19;
 }
 
 .line {
-  background-color:  #b8adad;
+  background-color:#b8adad;
   height: 1px;
   width: 327px;
   padding-top: 0;
@@ -132,12 +132,13 @@ img:hover {
   margin: 30px 24px 0px 24px;
 }
 
-.work-section-image img {
+.work-section-image .img {
   margin-top: 4px;
   padding-top: 5px;
 }
+
 .work-section-text1 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 4px 24px;
@@ -163,17 +164,13 @@ img:hover {
   align-items: center;
 }
 
-.work-section-button
-.btn1,
- .btn2, 
-.btn3,
- .btn4 {
+.work-section-button, .btn1, .btn2, .btn3, .btn4 {
   padding: 10px;
   margin-bottom: 6px;
   background-color: #fff;
   height: 40px;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -198,7 +195,6 @@ img:hover {
   text-decoration: none;
   border: none;
   background-color: #ff6b00;
-  text-align: center;
   margin-left: 24px;
 }
 
@@ -207,20 +203,18 @@ img:hover {
 }
 
 .project-section-img {
-
   background-image: url(./Images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
   width: 347px;
-  margin: 0px 24px;
+  margin: 0 24px;
   bottom: 0%;
   transform: translate(10%, 5%);
   -ms-transform: translate(5%, 5%);
   height: 385px;
   display: flex;
-  text-align: center;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -228,7 +222,6 @@ img:hover {
   line-height: 30px;
   width: 295px;
   color: white;
-  margin: 34px 12px;
   z-index: 1;
   text-align: center;
   flex-direction: column;
@@ -241,7 +234,7 @@ button {
 }
 
 .project-section-img h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -332,7 +325,7 @@ button {
 }
 
 .about-me h3 {
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -341,7 +334,7 @@ button {
 }
 
 .about-me-text {
-  font-family: 'Crete Round' sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   text-align: center;
   font-weight: 400;
@@ -361,6 +354,7 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 .about-me-footer-text {
   color: #172b4d;
   width: 375px;
@@ -370,7 +364,7 @@ button {
   top: 0%;
   margin: 0;
   border: none;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
