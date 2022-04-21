@@ -161,10 +161,7 @@ img:hover {
   align-items: center;
 }
 
-.btn1, 
-.btn2, 
-.btn3,
-.btn4 {
+.btn1, .btn2, .btn3, .btn4 {
   padding: 10px;
   margin-bottom: 6px;
   background-color: #fff;
