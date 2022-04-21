@@ -2,12 +2,6 @@ html {
 box-sizing: border-box;
 }
 
-*, 
-*::before ,  
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   background-color: #f4f4f4;
   padding: 0;
@@ -59,6 +53,7 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 16px; 
+
 }
 
 .header-paragraph {
@@ -68,6 +63,7 @@ header {
   font-size: 14px;
   margin-top: 28px;
   line-height: 22px; 
+
 }
 
 .header-icons {
