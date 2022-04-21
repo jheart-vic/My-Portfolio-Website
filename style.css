@@ -104,7 +104,6 @@ img:hover {
 
 .work-section-heading h2 {
   font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   padding: 50px 0 38px 0;
   text-align: center;
   font-weight: 500;
@@ -129,17 +128,16 @@ img:hover {
 }
 
 .work-section-image {
-  margin: 30px 24px 0px 24px;
+  margin: 30px 24px 0 24px;
 }
 
-.work-section-image .img {
+.img {
   margin-top: 4px;
   padding-top: 5px;
 }
 
 .work-section-text1 {
   font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   font-weight: 400;
   margin: 4px 24px;
   font-size: 32px;
@@ -164,14 +162,13 @@ img:hover {
   align-items: center;
 }
 
-.work-section-button, .btn1, .btn2, .btn3, .btn4 {
+.work-section-button .btn1, .btn2, .btn3, .btn4 {
   padding: 10px;
   margin-bottom: 6px;
-  background-color: #fff;
+  background-color:#fff;
   height: 40px;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -208,11 +205,10 @@ img:hover {
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
-  width: 347px;
-  margin: 0 24px;
+  margin: 0 30px;
   bottom: 0%;
-  transform: translate(10%, 5%);
-  -ms-transform: translate(5%, 5%);
+  transform: translate(5%, 5%);
+  -ms-transform: translate(10%, 10%);
   height: 385px;
   display: flex;
   font-family: 'Crete Round', sans-serif;
@@ -229,13 +225,8 @@ img:hover {
   align-items: center;
 }
 
-button {
-  text-align: center;
-}
-
 .project-section-img h2 {
   font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 40px;
@@ -246,7 +237,6 @@ button {
 
 .project-section-img h3 {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: bolder;
   font-size: 20px;
   line-height: 56px;
@@ -335,7 +325,6 @@ button {
 
 .about-me-text {
   font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   text-align: center;
   font-weight: 400;
   font-size: 72px;
@@ -356,16 +345,15 @@ button {
 }
 
 .about-me-footer-text {
-  color: #172b4d;
+  color:#172b4d;
   width: 375px;
   height: 267px;
-  background-color: #fff;
+  background-color:#fff;
   display: flex;
   top: 0%;
   margin: 0;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
