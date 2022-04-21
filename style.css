@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   color: white;
-  background-position-y: 22rem;
+  background-position-y: 21rem;
   max-height: 90%;
   width: 375px;
   display: flex;
@@ -25,7 +25,7 @@ body {
   flex: 1 1 auto;
 }
 
-.navbar-section {
+.header-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,7 +33,7 @@ body {
   background: #3c3a39;
 }
 
-header {
+.first-section {
   background-color: #1c1a19;
   padding: 20px 24px;
 }
@@ -69,11 +69,22 @@ header {
   padding-left: 10px;
 }
 
-.header-icons span {
-  padding-left: 10px;
+.header-icons ul{
+  display: flex;
+
+}
+
+.header-icons ul li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.header-icons ul li a{
+  text-decoration: none;
 }
 
 img:hover {
   background-color: #f4f4f4;
   color: #3c3a39;
+  cursor: pointer;
 }
