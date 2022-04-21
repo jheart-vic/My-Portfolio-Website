@@ -6,3 +6,5 @@
 ### Authors
 :guardsman: Akabueze Victor 
 - Github [@jheart-vic](https//github.com/jheart-vic/)
+📝 License
+This project is MIT licensed.
