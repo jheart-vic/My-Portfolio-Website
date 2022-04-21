@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   color: white;
-  background-position-y: 28.5rem;
+  background-position-y: 21.5rem;
 }
 
 .wrapper > * {
@@ -44,9 +44,9 @@ body {
 }
 
 .header-text {
-  font-size: 45px;
+  font-size: 35px;
   line-height: 70px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 150px 0 0 0;
   font-family: "Crete Round", sans-serif;
   color: #ff6b00;
@@ -149,7 +149,6 @@ img:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-
   line-height: 22px;
   margin: 12px 24px 12px 24px;
   width: 327px;
@@ -162,7 +161,6 @@ img:hover {
   align-items: center;
 }
 
-.work-section-button 
 .btn1, 
 .btn2, 
 .btn3,
