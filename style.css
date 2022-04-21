@@ -110,11 +110,11 @@ img:hover {
   width: 327px;
   font-size: 38px;
   line-height: 48px;
-  color:#1c1a19;
+  color: #1c1a19;
 }
 
 .line {
-  background-color:#b8adad;
+  background-color: #b8adad;
   height: 1px;
   width: 327px;
   padding-top: 0;
@@ -149,7 +149,7 @@ img:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 28px;
+
   line-height: 22px;
   margin: 12px 24px 12px 24px;
   width: 327px;
@@ -162,10 +162,14 @@ img:hover {
   align-items: center;
 }
 
-.work-section-button .btn1, .btn2, .btn3, .btn4 {
+.work-section-button 
+.btn1, 
+.btn2, 
+.btn3,
+.btn4 {
   padding: 10px;
   margin-bottom: 6px;
-  background-color:#fff;
+  background-color: #fff;
   height: 40px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -175,7 +179,6 @@ img:hover {
   color: #091e42;
   text-decoration: none;
   border: #8993a4 solid 1px;
-  text-align: center;
 }
 
 .work-section-button .btn1 {
@@ -345,10 +348,10 @@ img:hover {
 }
 
 .about-me-footer-text {
-  color:#172b4d;
+  color: #172b4d;
   width: 375px;
   height: 267px;
-  background-color:#fff;
+  background-color: #fff;
   display: flex;
   top: 0%;
   margin: 0;
