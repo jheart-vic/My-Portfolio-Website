@@ -72,3 +72,8 @@ header {
 .header-icons span {
   padding-left: 10px;
 }
+
+img:hover {
+  background-color: #f4f4f4;
+  color: #3c3a39;
+}
