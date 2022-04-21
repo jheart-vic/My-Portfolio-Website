@@ -1,17 +1,18 @@
-/* html and body  styling */
 html {
 box-sizing: border-box;
  }
+
 *, 
 *::before, 
 *::after {
 box-sizing: inherit;
 }
+
 body {
  background-color: #f4f4f4;
  padding: 0;
  }
-/* The container  styling */
+
 .wrapper {
 background-image: url(./Images/illustration-header-mobile.png);
 background-color: #1c1a19;
@@ -25,10 +26,11 @@ display: flex;
 flex-direction: column;
 margin: 5vh auto 5vh auto;
  }
+
  .wrapper > * {
 flex: 1 1 auto;
  }
-/* Navbar styling starts her */
+
 .navbar-section {
  display: flex;
 flex-direction: row;
@@ -36,11 +38,12 @@ justify-content: space-between;
 padding: 20px 24px;
  background: #3c3a39;
 }  
-/*  header styling starts here */
+
 header{
  background-color: #1c1a19;
  padding: 20px 24px;
 }
+
 .header-text {
 font-size: 32px;
 line-height: 70px;
@@ -67,11 +70,13 @@ font-size: 14px;
 margin-top: 28px;
 line-height: 22px; 
  }
+
 .header-icons {
  margin-bottom: 160px;
 padding-left: 10px;
 
  }
+
 .header-icons span {
     padding-left: 10px;
  }
