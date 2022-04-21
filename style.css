@@ -37,7 +37,6 @@ body {
   justify-content: space-between;
   padding: 20px 24px;
   background: #3c3a39;
-
 }  
 
 header {
@@ -60,7 +59,6 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 16px; 
-
 }
 
 .header-paragraph {
@@ -70,7 +68,6 @@ header {
   font-size: 14px;
   margin-top: 28px;
   line-height: 22px; 
-
 }
 
 .header-icons {
