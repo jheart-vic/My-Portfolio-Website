@@ -1,19 +1,22 @@
 html {
 box-sizing: border-box;
  }
-
 *, 
 *::before, 
 *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
+
 }
 
 body {
+
  background-color: #f4f4f4;
  padding: 0;
+
  }
 
 .wrapper {
+
 background-image: url(./Images/illustration-header-mobile.png);
 background-color: #1c1a19;
 background-repeat: no-repeat;
@@ -25,23 +28,30 @@ width: 375px;
 display: flex;
 flex-direction: column;
 margin: 5vh auto 5vh auto;
+
  }
 
  .wrapper > * {
+
 flex: 1 1 auto;
+
  }
 
 .navbar-section {
+
  display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding: 20px 24px;
  background: #3c3a39;
+
 }  
 
-header{
+header {
+
  background-color: #1c1a19;
  padding: 20px 24px;
+
 }
 
 .header-text {
@@ -51,6 +61,7 @@ font-weight: 400;
 margin-top: 150px 0 0 0;
 font-family: "Crete Round";
 color: #ff6b00;
+
 }
 
 .header-smaller-text {
@@ -69,6 +80,7 @@ font-weight: 400;
 font-size: 14px;
 margin-top: 28px;
 line-height: 22px; 
+
  }
 
 .header-icons {
@@ -77,6 +89,7 @@ padding-left: 10px;
 
  }
 
-.header-icons span {
+.header-icons span  {
     padding-left: 10px;
+    
  }
