@@ -1,80 +1,83 @@
 html {
 box-sizing: border-box;
 }
+
 *, 
-
-*::before, 
-
+*::before ,  
 *::after {
   box-sizing: inherit;
 }
 
 body {
- background-color: #f4f4f4;
- padding: 0;
- }
+  background-color: #f4f4f4;
+  padding: 0;
+}
 
 .wrapper {
- background-image: url(./Images/illustration-header-mobile.png);
- background-color: #1c1a19;
- background-repeat: no-repeat;
- background-position: right bottom;
- color: white;
- background-position-y: 22rem;
- max-height: 90%;
- width: 375px;
- display: flex;
- flex-direction: column;
- margin: 5vh auto 5vh auto;
- }
+  background-image: url(./Images/illustration-header-mobile.png);
+  background-color: #1c1a19;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+  background-position-y: 22rem;
+  max-height: 90%;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh auto 5vh auto;
+}
 
- .wrapper > * {
- flex: 1 1 auto;
- }
+.wrapper > * {
+  flex: 1 1 auto;
+}
 
 .navbar-section {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- padding: 20px 24px;
- background: #3c3a39;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 24px;
+  background: #3c3a39;
+
 }  
 
 header {
- background-color: #1c1a19;
- padding: 20px 24px;
+  background-color: #1c1a19;
+  padding: 20px 24px;
 }
 
 .header-text {
- font-size: 32px;
- line-height: 70px;
- font-weight: 400;
- margin-top: 150px 0 0 0;
- font-family: "Crete Round";
- color: #ff6b00;
+  font-size: 32px;
+  line-height: 70px;
+  font-weight: 400;
+  margin-top: 150px 0 0 0;
+  font-family: "Crete Round", sans-serif;
+  color: #ff6b00;
 }
 
 .header-smaller-text {
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 700;
- font-size: 16px;
- line-height: 16px; 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px; 
+
 }
 
 .header-paragraph {
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- margin-top: 28px;
- line-height: 22px; 
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 28px;
+  line-height: 22px; 
+
 }
 
 .header-icons {
- margin-bottom: 160px;
- padding-left: 10px;
- }
+  margin-bottom: 160px;
+  padding-left: 10px;
+}
+
 .header-icons span {
- padding-left: 10px;
- }
+  padding-left: 10px;
+}
