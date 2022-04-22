@@ -104,11 +104,11 @@ img:hover {
 
 .work-section-heading h2 {
   font-family: 'Crete Round', sans-serif;
-  padding: 50px 0 38px 0;
+  padding: 50px 0 19px 0;
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
   width: 87.2%;
-  font-size: 38px;
+  font-size: 2.2rem;
   line-height: 48px;
   color: #1c1a19;
 }
@@ -235,17 +235,17 @@ img:hover {
   align-items: center;
 }
 
-.project-section-img h2 {
+.project-section-img h3 {
   font-family: 'Crete Round', sans-serif;
   font-weight: 500;
   font-size: 28px;
-  line-height: 40px;
-  margin-top: 40px;
+  line-height: 30px;
+  margin-top: 38px;
   width: 295px;
   padding-top: 10px;
 }
 
-.project-section-img h3 {
+.project-section-img p {
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
   font-size: 20px;
@@ -320,7 +320,7 @@ img:hover {
   height: 2px;
 }
 
-.about-me h3 {
+.about-me p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
