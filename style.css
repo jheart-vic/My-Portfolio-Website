@@ -155,12 +155,12 @@ img:hover {
 }
 
 .work-section-ul ul {
-   display: flex;
-   align-items: center;
-   border: none;
-   width: 70%;
-   margin-left: 24px;
-   padding: 20px 0 2px 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 70%;
+  margin-left: 24px;
+  padding: 20px 0 2px 0;
 }
 
 .work-section-ul ul li {
@@ -175,7 +175,6 @@ img:hover {
 
 .btn {
   padding: 10px;
-  /* margin-bottom: 6px; */
   margin-right: 9px;
   background-color: #fff;
   height: 37px;
@@ -206,8 +205,8 @@ img:hover {
   margin-left: 24px;
 }
 
-.project-btn1:active  {
-  color: #fff;  
+.project-btn1:active {
+  color: #fff;
 }
 
 .project-section-img {
