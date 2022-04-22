@@ -202,16 +202,6 @@ img:hover {
   color: white;
 }
 
-.btn3:hover {
-  background-color: #ff6b00;
-  color: white;
-}
-
-.btn4:hover {
-  background-color: #ff6b00;
-  color: white;
-}
-
 .btn3 {
   padding: 10px;
   margin-bottom: 6px;
@@ -227,6 +217,11 @@ img:hover {
   border: #8993a4 solid 1px;
 }
 
+.btn3:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
 .btn4 {
   padding: 5px;
   margin-bottom: 6px;
@@ -240,6 +235,11 @@ img:hover {
   color: #091e42;
   text-decoration: none;
   border: #8993a4 solid 1px;
+}
+
+.btn4:hover {
+  background-color: #ff6b00;
+  color: white;
 }
 
 .project-btn1 {
