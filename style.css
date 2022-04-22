@@ -160,16 +160,16 @@ img:hover {
   gap: 30px;
   align-items: center;
 }
-
-.btn1, .btn2, .btn3, 
-.btn4 {
+ 
+.btn1 {
   padding: 10px;
   margin-bottom: 6px;
+  margin-left: 24px;
   background-color: #fff;
   height: 40px;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
@@ -177,8 +177,69 @@ img:hover {
   border: #8993a4 solid 1px;
 }
 
-.work-section-button .btn1 {
-  margin-left: 24px;
+.btn2 {
+  padding: 10px;
+  margin-bottom: 6px;
+  background-color: #fff;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  text-decoration: none;
+  border: #8993a4 solid 1px;
+}
+
+.btn1:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn3:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn4:hover {
+  background-color: #ff6b00;
+  color: white;
+}
+
+.btn3 {
+  padding: 10px;
+  margin-bottom: 6px;
+  background-color: #fff;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  text-decoration: none;
+  border: #8993a4 solid 1px;
+}
+
+.btn4 {
+  padding: 5px;
+  margin-bottom: 6px;
+  background-color: #fff;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  text-decoration: none;
+  border: #8993a4 solid 1px;
 }
 
 .project-btn1 {
