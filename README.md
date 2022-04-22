@@ -7,7 +7,8 @@
 :guardsman: Akabueze Victor 
 - Github [@jheart-vic](https//github.com/jheart-vic/)
 
-:handshake: ### Contributing 
+:handshake:
+###Contributing 
 > Contributions, issues, and feature requests are welcome!
 
 > Feel free to check the [issues page](https://github.com/jheart-vic/My-Portfolio-Website/issues).
@@ -19,5 +20,6 @@
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-:memo: ### License 
+:memo: 
+###License 
 > This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
