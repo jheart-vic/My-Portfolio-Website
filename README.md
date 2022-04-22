@@ -8,7 +8,7 @@
 - Github [@jheart-vic](https//github.com/jheart-vic/)
 
 :handshake:
-###Contributing 
+### Contributing 
 > Contributions, issues, and feature requests are welcome!
 
 > Feel free to check the [issues page](https://github.com/jheart-vic/My-Portfolio-Website/issues).
@@ -21,5 +21,5 @@
 - Inspiration
 - etc
 :memo: 
-###License 
+### License 
 > This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
