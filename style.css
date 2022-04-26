@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  max-height: 70%;
+  max-height: 90vh;
   width: 375px;
   display: flex;
   flex-direction: column;
@@ -432,6 +432,7 @@ img:hover {
   padding: 10px;
   margin-bottom: 6px;
   color: #fff;
+  font-family: 'Inter', sans-serif;
   height: 48px;
   width: 128px;
   text-align: center;
@@ -439,6 +440,8 @@ img:hover {
   border: none;
   background-color: #ff6b00;
   font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
 }
 
 .footer-icons {
@@ -455,6 +458,6 @@ img:hover {
 }
 
 .footer-icons ul li a {
-  font-size: 17px;
+  font-size: 34px;
   color: #505f79;
 }
