@@ -443,6 +443,22 @@ img:hover {
   font-size: 17px;
 }
 
+.contact-me-btn1:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.contact-me-btn1:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.contact-me-btn1:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 .footer-icons {
   padding-left: 0;
   margin-bottom: 0;
@@ -458,6 +474,6 @@ img:hover {
 }
 
 .footer-icons ul li a {
-  font-size: 17px;
+  font-size: 25px;
   color:  #505f79;
 }
