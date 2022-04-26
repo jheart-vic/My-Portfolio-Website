@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  max-height: 70%;
+  max-height: 90vh;
   width: 375px;
   display: flex;
   flex-direction: column;
@@ -385,14 +385,11 @@ img:hover {
   justify-content: space-evenly;
 }
 
-/* Contact section styles */
-.contact-me, .form-contact-me {
+.contact-me,
+.form-contact-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.form-contact-me {
   width: 100%;
 }
 
@@ -405,13 +402,14 @@ img:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin: 24px 0px;
+  margin: 24px 0;
   color: #172b4d;
   text-align: center;
   font-family: 'Inter', sans-serif;
 }
 
-.form-contact-me input, .form-contact-me textarea {
+.form-contact-me input,
+.form-contact-me textarea {
   width: 100%;
   margin-bottom: 24px;
   background: #fff;
@@ -421,7 +419,7 @@ img:hover {
 }
 
 .form-contact-me input {
-  border-bottom: 1px solid  #dbd8d7;;
+  border-bottom: 1px solid  #dbd8d7;
   height: 48px;
 }
 
@@ -434,6 +432,7 @@ img:hover {
   padding: 10px;
   margin-bottom: 6px;
   color: #fff;
+  font-family: 'Inter', sans-serif;
   height: 48px;
   width: 128px;
   text-align: center;
@@ -441,6 +440,8 @@ img:hover {
   border: none;
   background-color: #ff6b00;
   font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
 }
 
 .contact-me-btn1:hover {
@@ -460,7 +461,6 @@ img:hover {
 }
 
 .footer-icons {
-  padding-left: 0;
   margin-bottom: 0;
   padding: 10px 0;
   border-top: 1px solid #dfe1e6;
@@ -474,6 +474,12 @@ img:hover {
 }
 
 .footer-icons ul li a {
+<<<<<<< HEAD
   font-size: 25px;
   color:  #505f79;
 }
+=======
+  font-size: 34px;
+  color: #505f79;
+}
+>>>>>>> 505765436fd3d2e4852ea0fa87f81cb70f82f0c8
