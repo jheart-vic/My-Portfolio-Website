@@ -444,6 +444,22 @@ img:hover {
   line-height: 24px;
 }
 
+.contact-me-btn1:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.contact-me-btn1:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.contact-me-btn1:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 .footer-icons {
   margin-bottom: 0;
   padding: 10px 0;
@@ -458,6 +474,12 @@ img:hover {
 }
 
 .footer-icons ul li a {
+<<<<<<< HEAD
+  font-size: 25px;
+  color:  #505f79;
+}
+=======
   font-size: 34px;
   color: #505f79;
 }
+>>>>>>> 505765436fd3d2e4852ea0fa87f81cb70f82f0c8
