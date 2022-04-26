@@ -385,14 +385,11 @@ img:hover {
   justify-content: space-evenly;
 }
 
-/* Contact section styles */
-.contact-me, .form-contact-me {
+.contact-me,
+.form-contact-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.form-contact-me {
   width: 100%;
 }
 
@@ -405,13 +402,14 @@ img:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin: 24px 0px;
+  margin: 24px 0;
   color: #172b4d;
   text-align: center;
   font-family: 'Inter', sans-serif;
 }
 
-.form-contact-me input, .form-contact-me textarea {
+.form-contact-me input,
+.form-contact-me textarea {
   width: 100%;
   margin-bottom: 24px;
   background: #fff;
@@ -421,7 +419,7 @@ img:hover {
 }
 
 .form-contact-me input {
-  border-bottom: 1px solid  #dbd8d7;;
+  border-bottom: 1px solid  #dbd8d7;
   height: 48px;
 }
 
@@ -444,7 +442,6 @@ img:hover {
 }
 
 .footer-icons {
-  padding-left: 0;
   margin-bottom: 0;
   padding: 10px 0;
   border-top: 1px solid #dfe1e6;
@@ -459,5 +456,5 @@ img:hover {
 
 .footer-icons ul li a {
   font-size: 17px;
-  color:  #505f79;
+  color: #505f79;
 }
