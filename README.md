@@ -16,8 +16,8 @@
 > Give a :star: if you like this project!
 
 ### Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
+- [John Toma](https://github.com/Kamba56/)
+- [Microverse](https://www.microverse.org)
 - etc 
 ### :memo: License 
 > This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
