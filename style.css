@@ -7,6 +7,7 @@ html {
 body {
   background-color: #f4f4f4;
   padding: 0;
+  margin: 0;
   overflow-y: auto;
 }
 
@@ -25,7 +26,8 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   color: white;
-  background-position-y: 21.5rem;
+  background-position-y: 24.5rem;
+  overflow-x: hidden;
 }
 
 .wrapper > * {
@@ -217,10 +219,8 @@ img:hover {
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
-  margin: 0 30px;
+  margin: 0 auto;
   bottom: 0%;
-  transform: translate(5%, 5%);
-  -ms-transform: translate(10%, 10%);
   height: 385px;
   display: flex;
   font-family: 'Crete Round', serif;
@@ -230,10 +230,9 @@ img:hover {
   line-height: 30px;
   width: 295px;
   color: white;
-  z-index: 1;
   text-align: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -245,13 +244,14 @@ img:hover {
   margin-top: 38px;
   width: 295px;
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .project-section-img p {
   font-family: 'Inter', sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  line-height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   width: 298px;
   height: 86;
   margin-bottom: 0;
@@ -311,6 +311,7 @@ img:hover {
   margin-top: 120px;
   background-position-y: 17rem;
   height: 800px;
+  box-sizing: border-box;
 }
 
 .line1 {
@@ -328,7 +329,8 @@ img:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 24px;
+  margin: 24px;
+  text-align: center;
 }
 
 .about-me-text {
@@ -391,6 +393,7 @@ img:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-me {
@@ -476,4 +479,9 @@ img:hover {
 .footer-icons ul li a {
   font-size: 25px;
   color: #505f79;
+}
+
+.mobile-view {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
