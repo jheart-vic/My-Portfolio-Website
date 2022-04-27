@@ -178,15 +178,16 @@ img:hover {
 }
 
 .btn {
-  padding: 10px;
-  margin-right: 9px;
+  padding: 5px;
+  margin-right: 15px;
   background-color: #fff;
-  height: 37px;
+  height: 47px;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-weight: bolder;
-  font-size: 55px;
-  line-height: 24px;
+  font-weight: 500;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 20px;
   color: #091e42;
   text-decoration: none;
   border: #8993a4 solid 1px;
@@ -219,15 +220,16 @@ img:hover {
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
-  margin: 0 auto;
+  margin: 0 30px;
   bottom: 0%;
-  height: 385px;
+  height: 386px;
   display: flex;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  box-sizing: border-box;
   width: 295px;
   color: white;
   text-align: center;
@@ -299,7 +301,7 @@ img:hover {
 .project-section-img .project-section-btn {
   height: 40px;
   background: #b8adad;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 12px 0 12px;
 }
 
 .about-me {
@@ -309,14 +311,13 @@ img:hover {
   background-position: right bottom;
   color: white;
   margin-top: 120px;
-  background-position-y: 17rem;
-  height: 800px;
+  background-position-y: 24rem;
   box-sizing: border-box;
 }
 
 .line1 {
   top: calc(50% - 0px / 2 + 0.5px);
-  margin-top: 9rem;
+  margin-top: 11rem;
   width: 327px;
   margin-left: 24px;
   background-color: #fff;
@@ -338,6 +339,7 @@ img:hover {
   text-align: center;
   font-weight: 400;
   font-size: 72px;
+  padding-top: 120px;
   line-height: 88px;
   color: #ff6b00;
   letter-spacing: 0.37px;
@@ -352,24 +354,6 @@ img:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.about-me-footer-text {
-  color: #172b4d;
-  width: 375px;
-  height: 267px;
-  background-color: #fff;
-  display: flex;
-  top: 0%;
-  margin: 0;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-category ul li {
@@ -482,6 +466,7 @@ img:hover {
 }
 
 .mobile-view {
+  background-color: white;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
