@@ -680,8 +680,8 @@ img:hover {
 
   .work-section-texts {
     margin-left: 0;
-    padding-top: 50px;
-    padding-left: 32px;
+    padding-top: 16px;
+    padding-left: 22px;
   }
 
   .work-section-heading {
@@ -725,15 +725,19 @@ img:hover {
     text-align: center;
     padding-left: 11px;
     margin-left: 22px;
+    align-items: center;
   }
 
   .project-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    width: 35%;
+    width: 65%;
     margin: 24px 65px 24px 138px;
+    justify-content: center;
+    align-items: center;
     padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   .project-section-img {
