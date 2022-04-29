@@ -226,6 +226,7 @@ img:hover {
   border: none;
   background-color: #ff6b00;
   margin-left: 24px;
+  transition: all 0.8s ease-out 8ms;
 }
 
 .project-section-img1,
@@ -469,6 +470,7 @@ img:hover {
   font-size: 17px;
   letter-spacing: 0.03em;
   line-height: 24px;
+  transition: all 0.5s ease-in-out 10ms;
 }
 
 .contact-headerme- {
