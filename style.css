@@ -224,7 +224,7 @@ img:hover {
   text-align: center;
   text-decoration: none;
   border: none;
-  background-color: #ff6b00;
+  background-color: #c25100;
   margin-left: 24px;
   transition: all 0.8s ease-out 8ms;
 }
@@ -237,8 +237,8 @@ img:hover {
 
 .project-btn1:hover {
   background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
+  border: 1px solid #c25100;
+  color: #c25100;
 }
 
 .project-section-img {
@@ -288,7 +288,7 @@ img:hover {
   top: 0%;
   width: 100%;
   color: #fff;
-  background-color: #ff6b00;
+  background-color: #c25100;
   height: 48px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -304,8 +304,8 @@ img:hover {
 
 .project-btn2:hover {
   background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
+  border: 1px solid #c25100;
+  color: #c25100;
 }
 
 .project-section-img .paragraph {
@@ -1056,7 +1056,7 @@ img:hover {
     text-align: center;
     text-decoration: none;
     border: none;
-    background-color: #ff6b00;
+    background-color: #c25100;
     font-size: 17px;
     letter-spacing: 0.03em;
     line-height: 24px;
