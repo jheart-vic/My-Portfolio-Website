@@ -247,6 +247,7 @@ img:hover {
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
+  background-color: #595959;
   margin: 48px auto;
   bottom: 0%;
   height: 386px;
@@ -750,6 +751,7 @@ img:hover {
     background-position: center center;
     background-size: contain;
     background-origin: content-box;
+    background-color: #595959;
     height: 390px;
     display: flex;
     font-family: 'Crete Round', serif;
@@ -773,6 +775,7 @@ img:hover {
     background-position: center center;
     background-size: contain;
     background-origin: content-box;
+    background-color: #595959;
     bottom: 0%;
     height: 381px;
     display: flex;
@@ -796,6 +799,7 @@ img:hover {
     background-position: center center;
     background-size: contain;
     background-origin: content-box;
+    background-color: #595959;
     height: 390px;
     display: flex;
     font-family: 'Crete Round', serif;
@@ -818,6 +822,7 @@ img:hover {
     background-position: center center;
     background-size: contain;
     background-origin: content-box;
+    background-color: #595959;
     height: 383px;
     display: flex;
     font-family: 'Crete Round', serif;
