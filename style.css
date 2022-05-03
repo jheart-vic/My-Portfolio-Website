@@ -224,7 +224,7 @@ img:hover {
   text-align: center;
   text-decoration: none;
   border: none;
-  background-color: #c25100;
+  background-color: #8f3c00;
   margin-left: 24px;
   transition: all 0.8s ease-out 8ms;
 }
@@ -288,7 +288,7 @@ img:hover {
   top: 0%;
   width: 100%;
   color: #fff;
-  background-color: #c25100;
+  background-color: #8f3c00;
   height: 48px;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -466,7 +466,7 @@ img:hover {
   text-align: center;
   text-decoration: none;
   border: none;
-  background-color: #ff6b00;
+  background-color: #8f3c00;
   font-size: 17px;
   letter-spacing: 0.03em;
   line-height: 24px;
@@ -1056,7 +1056,7 @@ img:hover {
     text-align: center;
     text-decoration: none;
     border: none;
-    background-color: #c25100;
+    background-color: #8f3c00;
     font-size: 17px;
     letter-spacing: 0.03em;
     line-height: 24px;
