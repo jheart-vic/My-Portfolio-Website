@@ -15,17 +15,34 @@ function clicked () {
 
   let ul = document.createElement('ul')
    let li = document.createElement('li')
-   li.textContent = 'Portfolio';
+   let a = document.createElement('a')
+   a.href = '#Portfolio'
+   li.appendChild(a)
+   a.textContent = 'Portfolio';
+   a.style.textDecoration = 'none'
+   a.style.color ='white'
+   a.addEventListener('click', closed)
    li.style.listStyle = 'none'
    ul.appendChild(li);
    li = document.createElement('li');
-   li.textContent = 'About';
+   a = document.createElement('a')
+   a.href = '#About'
+   li.appendChild(a)
+   a.textContent = 'About';
+   a.style.textDecoration = 'none'
+   a.style.color ='white'
+   a.addEventListener('click', closed)
    li.style.listStyle = 'none'
    ul.appendChild(li);
    li = document.createElement('li');
-   li.textContent = 'contact'
+   a = document.createElement('a')
+   a.href = '#Contact'
+   li.appendChild(a)
+   a.textContent = 'Contact';
+   a.style.textDecoration = 'none'
+   a.style.color ='white'
    ul.appendChild(li);
-   li.className = 'nav-link';
+   a.addEventListener('click', closed)
    li.style.listStyle = 'none'
    ul.className = "nav-links";
    ul.style.display = 'block';
