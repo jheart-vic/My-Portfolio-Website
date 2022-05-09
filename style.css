@@ -29,6 +29,23 @@ body {
   background-position-y: 420px;
 }
 
+.modal {
+  height: 100%;
+  width: 375px;
+  background: rgba(60, 58, 57, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  position: fixed;
+  color: #fff;
+  box-shadow: rgba(60, 58, 57, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  overflow: hidden;
+}
+
 .nav-links {
   display: none;
 }
@@ -101,8 +118,6 @@ body {
 }
 
 img:hover {
-  background-color: #f4f4f4;
-  color: #3c3a39;
   cursor: pointer;
 }
 
