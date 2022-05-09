@@ -11,6 +11,11 @@ body {
   overflow-y: auto;
 }
 
+.icon {
+  float: right;
+  padding: 20px;
+}
+
 .wrapper {
   max-height: 90vh;
   width: 375px;
@@ -40,10 +45,17 @@ body {
   line-height: 44px;
   position: fixed;
   color: #fff;
-  box-shadow: rgba(60, 58, 57, 0.2);
   backdrop-filter: blur(10px);
   z-index: 10;
   overflow: hidden;
+}
+
+.modal ul {
+  padding: 20% 10%;
+}
+
+.modal li {
+  border-bottom: solid gray 1px;
 }
 
 .nav-links {
