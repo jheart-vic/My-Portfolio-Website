@@ -11,6 +11,11 @@ body {
   overflow-y: auto;
 }
 
+.icon {
+  float: right;
+  padding: 20px;
+}
+
 .wrapper {
   max-height: 90vh;
   width: 375px;
@@ -27,6 +32,30 @@ body {
   color: white;
   background-position-x: 208px;
   background-position-y: 420px;
+}
+
+.modal {
+  height: 100%;
+  width: 375px;
+  background: rgba(60, 58, 57, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  position: fixed;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.modal ul {
+  padding: 20% 10%;
+}
+
+.modal li {
+  border-bottom: solid gray 1px;
 }
 
 .nav-links {
@@ -101,8 +130,6 @@ body {
 }
 
 img:hover {
-  background-color: #f4f4f4;
-  color: #3c3a39;
   cursor: pointer;
 }
 
