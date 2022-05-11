@@ -1,5 +1,6 @@
 const hamBurger = document.querySelector('.hambuger');
 
+
 function clicked () {
   let div = document.createElement('div');
   div.className = 'modal';
@@ -11,8 +12,14 @@ function clicked () {
   img.addEventListener('click', closed);
   function closed() {
     div.style.display = 'none';
-  }
+    document.body.style.overflow = 'unset';
 
+  }
+  function resetMenu () {
+    if(window.innerWidth > 768){
+      div.style.display = 'none';
+    }
+  }
   let ul = document.createElement('ul')
    let li = document.createElement('li')
    let a = document.createElement('a')
@@ -47,8 +54,13 @@ function clicked () {
    ul.className = "nav-links";
    ul.style.display = 'block';
    div.appendChild(ul);
+   document.body.style.overflow = 'hidden';
    const wrapper = document.querySelector('.wrapper');
    wrapper.appendChild(div);
+   window.addEventListener('resize', resetMenu);
   }
 
+ 
   hamBurger.addEventListener('click', clicked);
+
+  
