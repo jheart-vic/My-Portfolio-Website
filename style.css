@@ -829,15 +829,16 @@ img:hover {
   .popup-paragraph {
     font-family: "Inter", sans-serif;
     line-height: 30px;
-    display: block;
     float: right;
-    width: 38%;
     height: 40%;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 0;
+    padding-top: 0;
     font-size: 1.5rem;
     font-weight: 700;
     color: #344563;
+    display: block;
+    width: 45%;
+    font-size: 17px;
   }
 
   .popup-btn {

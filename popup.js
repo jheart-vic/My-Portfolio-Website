@@ -83,7 +83,7 @@ function popUpDiv(id) {
   divTitle.classList.toggle('popup-title');
 
   divParagraph.innerText = `${popUps[id].description}`;
-  divParagraph.className = 'popup-paragraph';
+  //divParagraph.className = 'popup-paragraph';
   divParagraph.classList.toggle('popup-paragraph');
   divLiveBtn.textContent = 'see live';
   divLiveBtn.className = 'live';
