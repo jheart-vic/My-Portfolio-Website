@@ -66,7 +66,6 @@ const form = document.getElementById('formid');
 const errorMessage = document.getElementById('error');
 errorMessage.style.color = 'red';
 const userName = document.getElementById('name');
-const textArea = document.getElementById('text-area')
 
 function valid(input) {
   if (input === input.toLowerCase()) {
@@ -88,22 +87,21 @@ const showError = (e) => {
 };
 form.addEventListener('submit', showError);
 
-
 // local sotrage
-let users = {
+const users = {
   email: '',
   name: '',
   text: '',
-}
+};
 
- form.addEventListener('change', () =>{
-   users.email = document.getElementById('email').value;
-   users.name= document.getElementById('name').value;
-   users.text= document.getElementById('text-area').value;
+form.addEventListener('change', () => {
+  users.email = document.getElementById('email').value;
+  users.name = document.getElementById('name').value;
+  users.text = document.getElementById('text-area').value;
 
-  localStorage.setItem('stored',  JSON.stringify(users));
- });
- let storedObject = JSON.parse(localStorage.getItem('stored'));
-  document.getElementById('email').value = storedObject.email;
-  document.getElementById('name').value = storedObject.name;
-  document.getElementById('text-area').value = storedObject.text;
+  localStorage.setItem('stored', JSON.stringify(users));
+});
+const storedObject = JSON.parse(localStorage.getItem('stored'));
+document.getElementById('email').value = storedObject.email;
+document.getElementById('name').value = storedObject.name;
+document.getElementById('text-area').value = storedObject.text;
