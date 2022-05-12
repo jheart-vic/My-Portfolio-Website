@@ -66,6 +66,7 @@ const form = document.getElementById('formid');
 const errorMessage = document.getElementById('error');
 errorMessage.style.color = 'red';
 const userName = document.getElementById('name');
+const textArea = document.getElementById('text-area')
 
 function valid(input) {
   if (input === input.toLowerCase()) {
@@ -86,3 +87,20 @@ const showError = (e) => {
   userName.value = '';
 };
 form.addEventListener('submit', showError);
+
+
+// local sotrage 
+let users = {
+  email: '',
+  name: '',
+  text: '',
+}
+
+ form.addEventListener('change', () =>{
+   users.email = document.getElementById('email').value; 
+   users.name= document.getElementById('name').value;
+   users.text= document.getElementById('text-area').value
+ 
+  localStorage.setItem('stored',  JSON.stringify(users))
+ });
+ 
