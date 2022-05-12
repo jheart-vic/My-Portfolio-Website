@@ -83,7 +83,6 @@ function popUpDiv(id) {
   divTitle.classList.toggle('popup-title');
 
   divParagraph.innerText = `${popUps[id].description}`;
-  // divParagraph.className = 'popup-paragraph';
   divParagraph.classList.toggle('popup-paragraph');
   divLiveBtn.textContent = 'see live';
   divLiveBtn.className = 'live';
@@ -141,7 +140,7 @@ const card3 = document.createElement('div');
 const card4 = document.createElement('div');
 const card5 = document.createElement('div');
 const card6 = document.createElement('div');
-
+// card1
 card1.className = 'project-section-img';
 const card1Heading = document.createElement('h3');
 card1Heading.textContent = 'Profesional Art Printing Data';
@@ -152,10 +151,8 @@ const card1Btn = document.createElement('div');
 card1Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
     <button type="button" class="button"><span>Ruby</span></button>`;
-// card1Btn.className = 'button'
 const card1Btn2 = document.createElement('button');
 card1Btn2.className = 'project-btn2';
-//  card2Btn2.setAttribute('type: button')
 card1Btn2.innerText = 'See Project';
 card1Btn2.onclick = () => popUpDiv(1);
 
@@ -163,7 +160,9 @@ card1.appendChild(card1Heading);
 card1.appendChild(card1Paragraph);
 card1.appendChild(card1Btn);
 card1.appendChild(card1Btn2);
+// end of card1
 
+// card2
 card2.className = 'project-section-img1';
 const card2Heading = document.createElement('h3');
 card2Heading.textContent = 'Dashboard Healthcare';
@@ -174,17 +173,17 @@ const card2Btn = document.createElement('div');
 card2Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
     <button type="button" class="button"><span>Ruby</span></button>`;
-// card2Btn.className = 'button'
 const card2Btn2 = document.createElement('button');
 card2Btn2.className = 'project-btn2';
 card2Btn2.onclick = () => popUpDiv(2);
-//  card2Btn2.setAttribute('type: button')
 card2Btn2.innerText = 'See Project';
 card2.appendChild(card2Heading);
 card2.appendChild(card2Paragraph);
 card2.appendChild(card2Btn);
 card2.appendChild(card2Btn2);
+// end of card2
 
+// card3
 card3.className = 'project-section-img3';
 card3.className = 'project-section-img3';
 const card3Heading = document.createElement('h3');
@@ -196,17 +195,17 @@ const card3Btn = document.createElement('div');
 card3Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
     <button type="button" class="button"><span>Ruby</span></button>`;
-// card3Btn.className = 'button'
 const card3Btn2 = document.createElement('button');
 card3Btn2.className = 'project-btn2';
 card3Btn2.onclick = () => popUpDiv(3);
-//  card2Btn2.setAttribute('type: button')
 card3Btn2.innerText = 'See Project';
 card3.appendChild(card3Heading);
 card3.appendChild(card3Paragraph);
 card3.appendChild(card3Btn);
 card3.appendChild(card3Btn2);
+// end of card3
 
+// card4
 card4.className = 'project-section-img';
 const card4Heading = document.createElement('h3');
 card4Heading.textContent = 'Profesional Art Printing Data';
@@ -217,17 +216,17 @@ const card4Btn = document.createElement('div');
 card4Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
      <button type="button" class="button"><span class="big-span">bootstrap</span></button>
      <button type="button" class="button"><span>Ruby</span></button>`;
-//  card4Btn.className = 'button'
 const card4Btn2 = document.createElement('button');
 card4Btn2.className = 'project-btn2';
 card4Btn2.onclick = () => popUpDiv(4);
-//  card2Btn2.setAttribute('type: button')
 card4Btn2.innerText = 'See Project';
 card4.appendChild(card4Heading);
 card4.appendChild(card4Paragraph);
 card4.appendChild(card4Btn);
 card4.appendChild(card4Btn2);
+// end of card4
 
+// card5
 card5.className = 'project-section-img1';
 const card5Heading = document.createElement('h3');
 card5Heading.textContent = 'Dashboard Healthcare';
@@ -238,17 +237,17 @@ const card5Btn = document.createElement('div');
 card5Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
      <button type="button" class="button"><span class="big-span">bootstrap</span></button>
      <button type="button" class="button"><span>Ruby</span></button>`;
-//  card5Btn.className = 'button'
 const card5Btn2 = document.createElement('button');
 card5Btn2.className = 'project-btn2';
 card5Btn2.onclick = () => popUpDiv(5);
-//  card2Btn2.setAttribute('type: button')
 card5Btn2.innerText = 'See Project';
 card5.appendChild(card5Heading);
 card5.appendChild(card5Paragraph);
 card5.appendChild(card5Btn);
 card5.appendChild(card5Btn2);
+// end of card5
 
+// card6
 card6.className = 'project-section-img3';
 const card6Heading = document.createElement('h3');
 card6Heading.textContent = 'Website Portfolio';
@@ -259,17 +258,15 @@ const card6Btn = document.createElement('div');
 card6Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
      <button type="button" class="button"><span class="big-span">bootstrap</span></button>
      <button type="button" class="button"><span>Ruby</span></button>`;
-//  card6Btn.className = 'button'
 const card6Btn2 = document.createElement('button');
 card6Btn2.className = 'project-btn2';
 card6Btn2.onclick = () => popUpDiv(6);
-//  card2Btn2.setAttribute('type: button')
 card6Btn2.innerText = 'See Project';
 card6.appendChild(card6Heading);
 card6.appendChild(card6Paragraph);
 card6.appendChild(card6Btn);
 card6.appendChild(card6Btn2);
-
+// end of card 6
 cardWrap.appendChild(card1);
 cardWrap.appendChild(card2);
 cardWrap.appendChild(card3);
@@ -277,8 +274,4 @@ cardWrap.appendChild(card4);
 cardWrap.appendChild(card5);
 cardWrap.appendChild(card6);
 const wrapper = document.getElementById('idproject-section');
-//  console.log(wrapper)
 wrapper.appendChild(cardWrap);
-
-// let popUpBtn = document.querySelector('.project-btn');
-// popUpBtn.addEventListener('click', () => popUpDiv)

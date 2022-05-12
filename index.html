@@ -85,113 +85,14 @@
           <li  class="btn">Ruby</li>
           </ul>
       </div>
-      <button type="button" id="project-button1"  class="project-btn1 project-btn" onclick="popUpDiv(0)">See Project</button>
+      <button type="button" id="project-button1"  class="project-btn1 project-btn" onclick="popUpDiv(5)">See Project</button>
   </section>
  </div>
 </div>
 </section>
 <section id="idproject-section">
      <div class="project-section">
-       <!-- <section id="project-section-img" class="project-section-img ">
-         <h3>Profesional Art
-           Printing Data
-          </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class="project-img-btn1 project-img-btn">
-            <button type="button" class="btn2"><span>Html</span></button>
-            <button type="button" class="btn3"><span class="big-span">Bostrap</span></button>
-            <button type="button" class="btn4"><span>Ruby</span></button>
-
-          </div>
-          <button type="button" id="project-button2" class="project-btn2">See Project</button>
-       </section>
-       <section class="project-section-img project-section-img3">
-         <h3>Dashboard
-          Healthcare
-         </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class="project-img-btn1 project-img-btn">
-            <button type="button" class="btn2"><span>Html</span></button>
-            <button type="button" class="btn3"><span class="big-span">Bostrap</span></button>
-            <button type="button" class="btn4"><span>Ruby</span></button>
-
-          </div>
-          <button type="button" class="project-btn2 btn-closed">See Project</button>
-       </section>
-       <section class="project-section-img project-section-img1">
-         <h3>Website Protfolio
-          </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class="project-img-btn1 project-img-btn">
-            <button type="button" class="btn2"><span>Html</span></button>
-            <button type="button" class="btn3"><span class="big-span">bootstrap</span></button>
-            <button type="button" class="btn4"><span>Ruby</span></button>
-
-          </div>
-          <button type="button" class="project-btn2 btn-closed">See Project</button>
-       </section>
-       <section  class="project-section-img">
-         <h3>Profesional Art
-           Printing Data
-          </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class=" project-img-btn project-img-btn1">
-            <button type="button" class="btn7">Html</button>
-            <button type="button" class="btn5">bootstrap</button>
-            <button type="button" class="btn6">Ruby</button>
-
-          </div>
-          <button type="button" class="project-btn2 btn-closed">See Project</button>
-       </section>
-       <section class="project-section-img project-section-img3">
-         <h3>Dashboard
-          Healthcare
-          </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class=" project-img-btn1 project-img-btn">
-            <button type="button" class="btn7">Html</button>
-            <button type="button" class="btn5">bootstrap</button>
-            <button type="button" class="btn6">Ruby</button>
-
-          </div>
-          <button type="button" class="project-btn2 btn-closed">See Project</button>
-       </section>
-       <section class="project-section-img project-section-img1">
-         <h3>Website Protfolio
-          </h3>
-          <p class="paragraph">
-            A daily selection of privately personalized reads;
-            no accounts or sign-ups required.
-             has been the industry's standard
-          </p>
-          <div class=" project-img-btn project-img-btn1">
-            <button type="button" class="btn7">Html</button>
-            <button type="button" class="btn5">bootstrap</button>
-            <button type="button" class="btn6">Ruby</button>
-
-          </div>
-          <button type="button" class="project-btn2 btn-closed">See Project</button>
-       </section> -->
+    
     </div>
   </section>
    <section id="About"  class="about-me">
@@ -237,7 +138,6 @@
           </div>
 
           <div class="skills">
-              <!-- <img class="skills-bullet" src="./Images/circle (1).png" alt="circle shape"> -->
               <h2>
                 <span class="circle"></span>
                 Skills
@@ -258,14 +158,15 @@
      I'm always interested in hearing about new projects,
       so if you'd like to chat please get in touch.
     </h3>
-    <form action="https://formspree.io/f/xgedpabj" method="post" class="form-contact-me">
+    <form action="https://formspree.io/f/xgedpabj" method="post" id="formid" class="form-contact-me">
       <label for="name">Full-Name:</label>
       <input type="text" maxlength="30" name="username" placeholder="Full name" id="name" required>
-    <label for="email">Email:</label>
+      <label for="email">Email:</label>
+      <small id="error" ></small>
       <input type="email" name="email" placeholder="Full name" id="email" required>
     <label for="text-area">Comment Here</label>
       <textarea name="comment" maxlength="500" id="text-area" cols="30" rows="10" required>Enter text here</textarea>
-      <button type="submit" class="contact-me-btn1">Get in touch</button>
+      <button type="submit" id="submit" class="contact-me-btn1">Get in touch</button>
     </form>
   </section>
   <div class="header-icons footer-icons">
