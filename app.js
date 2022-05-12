@@ -86,3 +86,22 @@ const showError = (e) => {
   userName.value = '';
 };
 form.addEventListener('submit', showError);
+
+// local sotrage
+const users = {
+  email: '',
+  name: '',
+  text: '',
+};
+
+form.addEventListener('change', () => {
+  users.email = document.getElementById('email').value;
+  users.name = document.getElementById('name').value;
+  users.text = document.getElementById('text-area').value;
+
+  localStorage.setItem('stored', JSON.stringify(users));
+});
+const storedObject = JSON.parse(localStorage.getItem('stored'));
+document.getElementById('email').value = storedObject.email;
+document.getElementById('name').value = storedObject.name;
+document.getElementById('text-area').value = storedObject.text;
