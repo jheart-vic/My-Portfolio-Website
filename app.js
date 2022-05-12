@@ -81,10 +81,10 @@ const showError = (e) => {
     setTimeout(() => {
       errorMessage.textContent = '';
     }, 3000);
-    console.log('hey work')
-    
   }
-  
+  email.value = '';
+  userName.value = '';
+
 
 };
 
