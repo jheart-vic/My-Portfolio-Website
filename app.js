@@ -80,9 +80,9 @@ const showError = (e) => {
     errorMessage.textContent = 'Email must be lowercase';
     setTimeout(() => {
       errorMessage.textContent = '';
-    }, 2000);
-    console.log('hey work');
+    }, 3000);
   }
+  email.value = '';
+  userName.value = '';
 };
-
 form.addEventListener('submit', showError);
