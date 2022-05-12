@@ -59,3 +59,30 @@ function clicked() {
 }
 
 hamBurger.addEventListener('click', clicked);
+
+// form section
+const email = document.getElementById('email');
+const form = document.getElementById('formid');
+const errorMessage = document.getElementById('error');
+errorMessage.style.color = 'red';
+const userName = document.getElementById('name');
+
+function valid(input) {
+  if (input === input.toLowerCase()) {
+    return true;
+  }
+  return false;
+}
+
+const showError = (e) => {
+  if (!valid(email.value)) {
+    e.preventDefault();
+    errorMessage.textContent = 'Email must be lowercase';
+    setTimeout(() => {
+      errorMessage.textContent = '';
+    }, 3000);
+  }
+  email.value = '';
+  userName.value = '';
+};
+form.addEventListener('submit', showError);
