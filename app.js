@@ -89,7 +89,7 @@ const showError = (e) => {
 form.addEventListener('submit', showError);
 
 
-// local sotrage 
+// local sotrage
 let users = {
   email: '',
   name: '',
@@ -97,10 +97,14 @@ let users = {
 }
 
  form.addEventListener('change', () =>{
-   users.email = document.getElementById('email').value; 
+   users.email = document.getElementById('email').value;
    users.name= document.getElementById('name').value;
-   users.text= document.getElementById('text-area').value
- 
-  localStorage.setItem('stored',  JSON.stringify(users))
+   users.text= document.getElementById('text-area').value;
+
+  localStorage.setItem('stored',  JSON.stringify(users));
  });
- 
+
+ let storedObject = JSON.parse(localStorage.getItem('stored'));
+  document.getElementById('email').value = storedObject.email;
+  document.getElementById('name').value = storedObject.name;
+  document.getElementById('text-area').value = storedObject.text;
