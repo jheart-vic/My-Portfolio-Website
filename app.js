@@ -76,16 +76,13 @@ function valid(input) {
 
 const showError = (e) => {
   if (!valid(email.value)) {
-    e.preventDefault()
+    e.preventDefault();
     errorMessage.textContent = 'Email must be lowercase';
     setTimeout(() => {
       errorMessage.textContent = '';
-    }, 3000);
-    console.log('hey work')
-    
+    }, 2000);
+    console.log('hey work');
   }
-  
-
 };
 
-form.addEventListener('submit',showError)
+form.addEventListener('submit', showError);
