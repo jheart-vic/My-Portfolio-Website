@@ -614,16 +614,18 @@ img:hover {
   border-top: 1px solid #dfe1e6;
   margin-top: 120px;
   width: 100%;
+  color: #091e42;
 }
 
 .footer-icons ul {
   padding-inline-start: 0;
   justify-content: center;
+  color: #091e42;
 }
 
 .footer-icons ul li a {
   font-size: 45px;
-  color: #000;
+  color: #091e42;
 }
 
 .mobile-view {

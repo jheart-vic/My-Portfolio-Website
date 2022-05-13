@@ -99,6 +99,8 @@ form.addEventListener('change', () => {
   users.name = document.getElementById('name').value;
   users.text = document.getElementById('text-area').value;
 
+  return data
+
   localStorage.setItem('stored', JSON.stringify(users));
 });
 const storedObject = JSON.parse(localStorage.getItem('stored'));

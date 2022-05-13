@@ -59,7 +59,7 @@ const popUps = [
     source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
   },
   {
-    id: 'project-button6',
+    id: 'project-button6 project-button6',
     title: 'Website Portfolio',
     image: './images/SnapshootPortfolio.png',
     description:
