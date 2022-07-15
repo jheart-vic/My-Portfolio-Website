@@ -26,7 +26,7 @@ body {
 }
 
 .header-wrapper {
-  background-image: url(./images/illustration-header-mobile.png);
+  background-image: url(/images/illustration-header-mobile.png);
   background-color: #1c1a19;
   background-repeat: no-repeat;
   color: white;
@@ -259,7 +259,7 @@ img:hover {
 .project-section-img1,
 .project-section-img2,
 .project-section-img3 {
-  background-image: url(./images/image2.jpg);
+  background-image: url(/images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -283,7 +283,7 @@ img:hover {
 }
 
 .project-section-img {
-  background-image: url(./images/image2.jpg);
+  background-image: url(/images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -434,7 +434,7 @@ img:hover {
 }
 
 .about-me {
-  background-image: url(./images/image3.svg.png);
+  background-image: url(/images/image3.svg.png);
   background-color: #1c1a19;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -783,18 +783,6 @@ img:hover {
     z-index: 10;
   }
 
-  /* .showpop {
-    width: 80vw;
-    height: 85vh;
-    background-color: #f3f1f1;
-    position: fixed;
-    z-index: 10;
-  } */
-
-  /* .blur {
-    filter: blur(20px);
-  } */
-
   .popup-title {
     color: black;
     left: 0;
@@ -897,7 +885,7 @@ img:hover {
   }
 
   .header-wrapper {
-    background-image: url(./images/Illustration-header.png);
+    background-image: url(/images/Illustration-header.png);
     background-position: right top;
     color: white;
     background-position-y: 3.5rem;
@@ -1083,7 +1071,7 @@ img:hover {
   }
 
   .project-section-img {
-    background-image: url(./images/image2.jpg);
+    background-image: url(/images/image2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1107,7 +1095,7 @@ img:hover {
   }
 
   .project-section-img1 {
-    background-image: url(./images/Img\ Placeholder3.png);
+    background-image: url(/images/Img\ Placeholder3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1131,30 +1119,8 @@ img:hover {
     box-sizing: border-box;
   }
 
-  /* .project-section-img2 {
-    background-image: url(./images/Img\ Placeholder2.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    background-origin: content-box;
-    height: 390px;
-    display: flex;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    width: 369px;
-    color: white;
-    text-align: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-  } */
-
   .project-section-img3 {
-    background-image: url(./images/Img\ Placeholder1.png);
+    background-image: url(/images/Img\ Placeholder1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1176,14 +1142,6 @@ img:hover {
     align-items: center;
     box-sizing: border-box;
   }
-
-  /*
-  .project-section-img2 .paragraph {
-    width: 295px;
-    height: 86px;
-    margin-bottom: 0;
-    padding-left: 24px;
-  } */
 
   .project-section-img1 .paragraph {
     width: 295px;
@@ -1255,24 +1213,8 @@ img:hover {
     width: 331px;
   }
 
-  /* .btn-closed {
-    height: 48px;
-    font-weight: 400;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    line-height: 24px;
-    margin-top: 7px;
-    padding: 5px;
-    border: none;
-    transform: translateY(0.2px);
-    width: 350px;
-  } */
-
   .about-me {
-    background-image: url(./images/illustration-about\ me.png);
+    background-image: url(/images/illustration-about\ me.png);
     margin-top: 120px;
     background-position-y: 18rem;
     background-size: 35%;
