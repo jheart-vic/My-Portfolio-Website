@@ -48,6 +48,15 @@ function clicked() {
   a.style.color = 'white';
   ul.appendChild(li);
   a.addEventListener('click', closed);
+  li = document.createElement('li');
+  a = document.createElement('a');
+  a.href = '#Contact';
+  li.appendChild(a);
+  a.textContent = 'Contact';
+  a.style.textDecoration = 'none';
+  a.style.color = 'white';
+  ul.appendChild(li);
+  a.addEventListener('click', closed);
   li.style.listStyle = 'none';
   ul.className = 'nav-links';
   ul.style.display = 'block';
