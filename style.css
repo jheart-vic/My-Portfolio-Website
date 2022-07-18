@@ -259,7 +259,7 @@ img:hover {
 .project-section-img1,
 .project-section-img2,
 .project-section-img3 {
-  background-image: url(/images/image2.jpg);
+  background-image: url(./images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -283,7 +283,7 @@ img:hover {
 }
 
 .project-section-img {
-  background-image: url(/images/image2.jpg);
+  background-image: url(./images/image2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -434,7 +434,7 @@ img:hover {
 }
 
 .about-me {
-  background-image: url(/images/image3.svg.png);
+  background-image: url(./images/image3.png);
   background-color: #1c1a19;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -658,11 +658,11 @@ img:hover {
 }
 
 .live::after {
-  content: url(images/Iconlive.png);
+  content: url(./images/Iconlive.png);
 }
 
 .source::after {
-  content: url(images/github2.png);
+  content: url(./images/github2.png);
 }
 
 .popup-mobile-margin {
@@ -864,11 +864,11 @@ img:hover {
   }
 
   .live::after {
-    content: url(images/Iconlive.png);
+    content: url(./images/Iconlive.png);
   }
 
   .source::after {
-    content: url(images/github2.png);
+    content: url(./images/github2.png);
   }
 
   .popup-margin {
@@ -885,7 +885,7 @@ img:hover {
   }
 
   .header-wrapper {
-    background-image: url(/images/Illustration-header.png);
+    background-image: url(./images/Illustration-header.png);
     background-position: right top;
     color: white;
     background-position-y: 3.5rem;
@@ -1071,7 +1071,7 @@ img:hover {
   }
 
   .project-section-img {
-    background-image: url(/images/image2.jpg);
+    background-image: url(./images/image2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1095,7 +1095,7 @@ img:hover {
   }
 
   .project-section-img1 {
-    background-image: url(/images/Img\ Placeholder3.png);
+    background-image: url(./images/placeholder3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1120,7 +1120,7 @@ img:hover {
   }
 
   .project-section-img3 {
-    background-image: url(/images/Img\ Placeholder1.png);
+    background-image: url(./images/placeholder1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -1214,7 +1214,7 @@ img:hover {
   }
 
   .about-me {
-    background-image: url(/images/illustration-about\ me.png);
+    background-image: url(./images/illustration-about.png);
     margin-top: 120px;
     background-position-y: 18rem;
     background-size: 35%;
