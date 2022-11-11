@@ -275,7 +275,7 @@ img:hover {
   align-items: center;
 }
 
-.project-section-img3 {
+.project-section-img2 {
   background-image: url(./images/foodimage.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -294,7 +294,7 @@ img:hover {
   align-items: center;
 }
 
-.project-section-img5 {
+.project-section-img4 {
   background-image: url(./images/cryptoimage.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -315,7 +315,7 @@ img:hover {
   align-items: center;
 }
 
-.project-section-img6 {
+.project-section-img5 {
   background-image: url(./images/foodimage.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -360,7 +360,7 @@ img:hover {
   transition: all 0.8s ease-out;
 }
 
-.project-section-img4 {
+.project-section-img3 {
   background-image: url(./images/budgetimage.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -381,10 +381,10 @@ img:hover {
 
 .project-section-img h3,
 .project-section-img1 h3,
+.project-section-img2 h3,
 .project-section-img3 h3,
 .project-section-img4 h3,
-.project-section-img5 h3,
-.project-section-img6 h3 {
+.project-section-img5 h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
@@ -436,10 +436,10 @@ img:hover {
 
 .project-section-img .paragraph,
 .project-section-img1 .paragraph,
+.project-section-img2 .paragraph,
 .project-section-img3 .paragraph,
 .project-section-img4 .paragraph,
-.project-section-img5 .paragraph,
-.project-section-img6 .paragraph {
+.project-section-img5 .paragraph {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -460,7 +460,7 @@ img:hover {
   padding: 10px 12px 0 12px;
 }
 
-.project-section-img4 .project-section-btn {
+.project-section-img3 .project-section-btn {
   height: 40px;
   background: #b8adad;
   padding: 10px 12px 0 12px;
@@ -468,10 +468,10 @@ img:hover {
 
 .project-section-img:hover,
 .project-section-img1:hover,
+.project-section-img2:hover,
 .project-section-img3:hover,
 .project-section-img4:hover,
-.project-section-img5:hover,
-.project-section-img6:hover {
+.project-section-img5:hover {
   background-color: #8993a4;
   background-size: 100%;
   transform: scale(1.04);
@@ -1139,7 +1139,7 @@ img:hover {
     box-sizing: border-box;
   }
 
-  .project-section-img4 {
+  .project-section-img3 {
     background-image: url(./images/budgetimage.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1191,7 +1191,7 @@ img:hover {
     box-sizing: border-box;
   }
 
-  .project-section-img3 {
+  .project-section-img2 {
     background-image: url(./images/foodimage.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1218,7 +1218,7 @@ img:hover {
     box-sizing: border-box;
   }
 
-  .project-section-img5 {
+  .project-section-img4 {
     background-image: url(./images/cryptoimage.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1245,7 +1245,7 @@ img:hover {
     box-sizing: border-box;
   }
 
-  .project-section-img6 {
+  .project-section-img5 {
     background-image: url(./images/foodimage.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1279,7 +1279,16 @@ img:hover {
     font-weight: 400;
   }
 
-  .project-section-img3 .paragraph {
+  .project-section-img2 .paragraph {
+    width: 295px;
+    margin-bottom: 0;
+    padding-left: 24px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  .project-section-img4 .paragraph {
     width: 295px;
     margin-bottom: 0;
     padding-left: 24px;
@@ -1297,16 +1306,7 @@ img:hover {
     font-weight: 400;
   }
 
-  .project-section-img6 .paragraph {
-    width: 295px;
-    margin-bottom: 0;
-    padding-left: 24px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-  }
-
-  .project-section-img6 h3 {
+  .project-section-img5 h3 {
     font-family: 'Crete Round', serif;
     font-weight: 500;
     font-size: 28px;
@@ -1318,7 +1318,7 @@ img:hover {
   }
 
   .project-section-img p,
-  .project-section-img4 p {
+  .project-section-img3 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;

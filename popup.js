@@ -1,6 +1,6 @@
 const popUps = [
   {
-    id: 'project-button1',
+    id: 0,
     title: 'Multi-Post Stories',
     image: './images/SnapshootPortfolio.png',
     description:
@@ -11,7 +11,7 @@ const popUps = [
   },
 
   {
-    id: 'project-button2',
+    id: 1,
     title: 'Professional Art Printing Data',
     image: './images/SnapshootPortfolio.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
@@ -20,26 +20,17 @@ const popUps = [
     source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
   },
   {
-    id: 'project-button3',
-    title: 'Dashboard Healthcare',
-    image: './images/SnapshootPortfolio.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
-    source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
+    id: 2,
+    title: 'Book Store App',
+    image: './images/bookstoreimage.png',
+    description: "An application that allows users to add and remove books from a list.The application is built with React and Redux.",
+    technologies: ['React', 'Redux', 'CSS'],
+    live_link: 'https://store-your-book.netlify.app/',
+    source_link: 'https://github.com/jheart-vic/BookStore/',
   },
+
   {
-    id: 'project-button3',
-    title: 'Website Portfolio',
-    image: './images/snapshootPortfolio.png',
-    description:
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
-    source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
-  },
-  {
-    id: 'project-button4',
+    id: 3,
     title: 'Budget App',
     image: './images/budget1.png',
     description:
@@ -49,7 +40,7 @@ const popUps = [
     source_link: 'https://github.com/jheart-vic/Budget-App',
   },
   {
-    id: 'project-button5',
+    id: 4,
     title: 'Crypto Market Data',
     image: './images/cryptoimg.png',
     description:
@@ -59,7 +50,7 @@ const popUps = [
     source_link: 'https://github.com/jheart-vic/cryptoapp',
   },
   {
-    id: 'project-button6 project-button6',
+    id: 5,
     title: 'Food App',
     image: './images/hbdiet.png',
     description:
@@ -134,16 +125,38 @@ function popUpDiv(id) {
 // card section
 const cardWrap = document.createElement('div');
 cardWrap.className = 'project-section';
+const card0 = document.createElement('div');
 const card1 = document.createElement('div');
 const card2 = document.createElement('div');
 const card3 = document.createElement('div');
 const card4 = document.createElement('div');
 const card5 = document.createElement('div');
-const card6 = document.createElement('div');
+// card0
+card0.className = 'project-section-img';
+const card0Heading = document.createElement('h3');
+card0Heading.textContent = 'Profesional Art Printing Data';
+const card0Paragraph = document.createElement('p');
+card0Paragraph.className = 'paragraph';
+card0Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
+const card0Btn = document.createElement('div');
+card0Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
+    <button type="button" class="button"><span class="big-span">bootstrap</span></button>
+    <button type="button" class="button"><span>Ruby</span></button>`;
+const card0Btn2 = document.createElement('button');
+card0Btn2.className = 'project-btn2';
+card0Btn2.innerText = 'See Project';
+card0Btn2.onclick = () => popUpDiv(0);
+
+card0.appendChild(card0Heading);
+card0.appendChild(card0Paragraph);
+card0.appendChild(card0Btn);
+card0.appendChild(card0Btn2);
+// end of card0
+
 // card1
-card1.className = 'project-section-img';
+card1.className = 'project-section-img1';
 const card1Heading = document.createElement('h3');
-card1Heading.textContent = 'Profesional Art Printing Data';
+card1Heading.textContent = 'Dashboard Healthcare';
 const card1Paragraph = document.createElement('p');
 card1Paragraph.className = 'paragraph';
 card1Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -153,9 +166,8 @@ card1Btn.innerHTML = `<button type="button" class="button"><span>Html</span></bu
     <button type="button" class="button"><span>Ruby</span></button>`;
 const card1Btn2 = document.createElement('button');
 card1Btn2.className = 'project-btn2';
-card1Btn2.innerText = 'See Project';
 card1Btn2.onclick = () => popUpDiv(1);
-
+card1Btn2.innerText = 'See Project';
 card1.appendChild(card1Heading);
 card1.appendChild(card1Paragraph);
 card1.appendChild(card1Btn);
@@ -163,9 +175,9 @@ card1.appendChild(card1Btn2);
 // end of card1
 
 // card2
-card2.className = 'project-section-img1';
+card2.className = 'project-section-img2';
 const card2Heading = document.createElement('h3');
-card2Heading.textContent = 'Dashboard Healthcare';
+card2Heading.textContent = 'Website Portfolio';
 const card2Paragraph = document.createElement('p');
 card2Paragraph.className = 'paragraph';
 card2Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -186,14 +198,14 @@ card2.appendChild(card2Btn2);
 // card3
 card3.className = 'project-section-img3';
 const card3Heading = document.createElement('h3');
-card3Heading.textContent = 'Website Portfolio';
+card3Heading.textContent = 'Budget App';
 const card3Paragraph = document.createElement('p');
 card3Paragraph.className = 'paragraph';
 card3Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
 const card3Btn = document.createElement('div');
 card3Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
-    <button type="button" class="button"><span class="big-span">bootstrap</span></button>
-    <button type="button" class="button"><span>Ruby</span></button>`;
+     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
+     <button type="button" class="button"><span>Ruby</span></button>`;
 const card3Btn2 = document.createElement('button');
 card3Btn2.className = 'project-btn2';
 card3Btn2.onclick = () => popUpDiv(3);
@@ -207,7 +219,7 @@ card3.appendChild(card3Btn2);
 // card4
 card4.className = 'project-section-img4';
 const card4Heading = document.createElement('h3');
-card4Heading.textContent = 'Budget App';
+card4Heading.textContent = 'Crypto App';
 const card4Paragraph = document.createElement('p');
 card4Paragraph.className = 'paragraph';
 card4Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -228,7 +240,7 @@ card4.appendChild(card4Btn2);
 // card5
 card5.className = 'project-section-img5';
 const card5Heading = document.createElement('h3');
-card5Heading.textContent = 'Crypto App';
+card5Heading.textContent = 'Food App';
 const card5Paragraph = document.createElement('p');
 card5Paragraph.className = 'paragraph';
 card5Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -244,33 +256,12 @@ card5.appendChild(card5Heading);
 card5.appendChild(card5Paragraph);
 card5.appendChild(card5Btn);
 card5.appendChild(card5Btn2);
-// end of card5
-
-// card6
-card6.className = 'project-section-img6';
-const card6Heading = document.createElement('h3');
-card6Heading.textContent = 'Food App';
-const card6Paragraph = document.createElement('p');
-card6Paragraph.className = 'paragraph';
-card6Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
-const card6Btn = document.createElement('div');
-card6Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
-     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
-     <button type="button" class="button"><span>Ruby</span></button>`;
-const card6Btn2 = document.createElement('button');
-card6Btn2.className = 'project-btn2';
-card6Btn2.onclick = () => popUpDiv(6);
-card6Btn2.innerText = 'See Project';
-card6.appendChild(card6Heading);
-card6.appendChild(card6Paragraph);
-card6.appendChild(card6Btn);
-card6.appendChild(card6Btn2);
 // end of card 6
+cardWrap.appendChild(card0);
 cardWrap.appendChild(card1);
 cardWrap.appendChild(card2);
 cardWrap.appendChild(card3);
 cardWrap.appendChild(card4);
 cardWrap.appendChild(card5);
-cardWrap.appendChild(card6);
 const wrapper = document.getElementById('idproject-section');
 wrapper.appendChild(cardWrap);
