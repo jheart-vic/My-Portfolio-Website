@@ -23,7 +23,7 @@ const popUps = [
     id: 2,
     title: 'Book Store App',
     image: './images/bookstoreimage.png',
-    description: "An application that allows users to add and remove books from a list.The application is built with React and Redux.",
+    description: 'An application that allows users to add and remove books from a list.The application is built with React and Redux.',
     technologies: ['React', 'Redux', 'CSS'],
     live_link: 'https://store-your-book.netlify.app/',
     source_link: 'https://github.com/jheart-vic/BookStore/',
