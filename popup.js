@@ -40,33 +40,33 @@ const popUps = [
   },
   {
     id: 'project-button4',
-    title: 'Professional Art Printing Data',
-    image: './images/SnapshootPortfolio.png',
+    title: 'Budget App',
+    image: './images/budget1.png',
     description:
   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
     technologies: ['html', 'bootstrap', 'Ruby'],
-    live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
-    source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
+    live_link: 'https://budgetory.herokuapp.com/',
+    source_link: 'https://github.com/jheart-vic/Budget-App',
   },
   {
     id: 'project-button5',
-    title: 'Dashboard Healthcare',
-    image: './images/SnapshootPortfolio.png',
+    title: 'Crypto Market Data',
+    image: './images/cryptoimg.png',
     description:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
-    source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
+  'An App that displays information on crypto market',
+    technologies: ['React', 'CSS', 'Redux'],
+    live_link: 'https://crypto-area.herokuapp.com/',
+    source_link: 'https://github.com/jheart-vic/cryptoapp',
   },
   {
     id: 'project-button6 project-button6',
-    title: 'Website Portfolio',
-    image: './images/SnapshootPortfolio.png',
+    title: 'Food App',
+    image: './images/hbdiet.png',
     description:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    live_link: 'https://jheart-vic.github.io/My-Portfolio-Website/',
-    source_link: 'https://github.com/jheart-vic/My-Portfolio-Website',
+  'This is a balanced diet site that helps you know how to eat right and what to eat at the right time',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live_link: 'https://jheart-vic.github.io/capstone/',
+    source_link: 'https://github.com/jheart-vic/capstone',
   },
 ];
 
@@ -185,7 +185,6 @@ card2.appendChild(card2Btn2);
 
 // card3
 card3.className = 'project-section-img3';
-card3.className = 'project-section-img3';
 const card3Heading = document.createElement('h3');
 card3Heading.textContent = 'Website Portfolio';
 const card3Paragraph = document.createElement('p');
@@ -206,9 +205,9 @@ card3.appendChild(card3Btn2);
 // end of card3
 
 // card4
-card4.className = 'project-section-img';
+card4.className = 'project-section-img4';
 const card4Heading = document.createElement('h3');
-card4Heading.textContent = 'Profesional Art Printing Data';
+card4Heading.textContent = 'Budget App';
 const card4Paragraph = document.createElement('p');
 card4Paragraph.className = 'paragraph';
 card4Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -227,9 +226,9 @@ card4.appendChild(card4Btn2);
 // end of card4
 
 // card5
-card5.className = 'project-section-img1';
+card5.className = 'project-section-img5';
 const card5Heading = document.createElement('h3');
-card5Heading.textContent = 'Dashboard Healthcare';
+card5Heading.textContent = 'Crypto App';
 const card5Paragraph = document.createElement('p');
 card5Paragraph.className = 'paragraph';
 card5Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
@@ -248,9 +247,9 @@ card5.appendChild(card5Btn2);
 // end of card5
 
 // card6
-card6.className = 'project-section-img3';
+card6.className = 'project-section-img6';
 const card6Heading = document.createElement('h3');
-card6Heading.textContent = 'Website Portfolio';
+card6Heading.textContent = 'Food App';
 const card6Paragraph = document.createElement('p');
 card6Paragraph.className = 'paragraph';
 card6Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";

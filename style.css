@@ -256,15 +256,73 @@ img:hover {
   transition: all 0.8s ease-out 8ms;
 }
 
-.project-section-img1,
-.project-section-img2,
+.project-section-img1 {
+  background-image: url(./images/foodimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-origin: content-box;
+  background-color: #8993a4;
+  margin: 48px auto;
+  bottom: 0%;
+  height: 386px;
+  color: #f4f1f0;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .project-section-img3 {
-  background-image: url(./images/image2.jpg);
+  background-image: url(./images/foodimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-origin: content-box;
+  background-color: #8993a4;
+  margin: 48px auto;
+  bottom: 0%;
+  height: 386px;
+  color: #f4f1f0;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-section-img5 {
+  background-image: url(./images/cryptoimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-origin: content-box;
+  background-color: #8993a4;
+  margin: 48px auto;
+  bottom: 0%;
+  height: 386px;
+  color: #f4f1f0;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+
+  /* border: #1c1a19 1px solid; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-section-img6 {
+  background-image: url(./images/foodimage.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
   margin: 48px auto;
+  background-color: #8993a4;
   bottom: 0%;
   height: 386px;
   color: #f4f1f0;
@@ -279,15 +337,36 @@ img:hover {
 .project-btn1:hover {
   background: #fff5e1;
   border: 1px solid #c25100;
-  color: #c25100;
+  color: #9c6c4a;
 }
 
 .project-section-img {
-  background-image: url(./images/image2.jpg);
+  background-image: url(./images/budgetimage.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   background-origin: content-box;
+  background-color: #8993a4;
+  margin: 48px auto;
+  bottom: 0%;
+  height: 386px;
+  color: #f4f1f0;
+  box-sizing: border-box;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.8s ease-out;
+}
+
+.project-section-img4 {
+  background-image: url(./images/budgetimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-origin: content-box;
+  background-color: #8993a4;
   margin: 48px auto;
   bottom: 0%;
   height: 386px;
@@ -300,39 +379,12 @@ img:hover {
   align-items: center;
 }
 
-.project-section-img h3 {
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 84px;
-  width: 295px;
-  height: 81px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-  padding-top: 10px;
-  padding-left: 10px;
-  color: white;
-}
-
-.project-section-img1 h3 {
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 84px;
-  width: 295px;
-  height: 81px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-  padding-top: 10px;
-  padding-left: 10px;
-  color: white;
-}
-
-.project-section-img3 h3 {
+.project-section-img h3,
+.project-section-img1 h3,
+.project-section-img3 h3,
+.project-section-img4 h3,
+.project-section-img5 h3,
+.project-section-img6 h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
@@ -354,7 +406,7 @@ img:hover {
   padding: 10px 12px;
   gap: 8px;
   margin: 40px 10px;
-  background: rgba(255, 255, 255, 0.24);
+  background: #8f3c00;
   color: #fff;
 }
 
@@ -369,11 +421,11 @@ img:hover {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 0;
+  margin-top: 10px;
   padding: 10px;
   border: none;
-  margin-bottom: 0;
-  transform: translateY(-33px);
+  margin-bottom: 4px;
+  transform: translateY(-43px);
 }
 
 .project-btn2:hover {
@@ -382,37 +434,12 @@ img:hover {
   color: #c25100;
 }
 
-.project-section-img .paragraph {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  width: 295px;
-  height: 87px;
-  line-height: 24px;
-  padding: 12px;
-  margin-bottom: 0;
-  margin-left: 5px;
-  margin-top: 12px;
-  color: white;
-}
-
-.project-section-img1 .paragraph {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  width: 295px;
-  height: 87px;
-  line-height: 24px;
-  padding: 12px;
-  margin-bottom: 0;
-  margin-left: 5px;
-  margin-top: 12px;
-  color: white;
-}
-
-.project-section-img3 .paragraph {
+.project-section-img .paragraph,
+.project-section-img1 .paragraph,
+.project-section-img3 .paragraph,
+.project-section-img4 .paragraph,
+.project-section-img5 .paragraph,
+.project-section-img6 .paragraph {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -431,6 +458,23 @@ img:hover {
   height: 40px;
   background: #b8adad;
   padding: 10px 12px 0 12px;
+}
+
+.project-section-img4 .project-section-btn {
+  height: 40px;
+  background: #b8adad;
+  padding: 10px 12px 0 12px;
+}
+
+.project-section-img:hover,
+.project-section-img1:hover,
+.project-section-img3:hover,
+.project-section-img4:hover,
+.project-section-img5:hover,
+.project-section-img6:hover {
+  background-color: #8993a4;
+  background-size: 100%;
+  transform: scale(1.04);
 }
 
 .about-me {
@@ -1071,18 +1115,44 @@ img:hover {
   }
 
   .project-section-img {
-    background-image: url(./images/image2.jpg);
+    background-image: url(./images/foodimage.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(12, 11, 11, 0.7);
     height: 390px;
     display: flex;
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    border: #1c1a19 1px solid;
+    line-height: 30px;
+    width: 369px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .project-section-img4 {
+    background-image: url(./images/budgetimage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: rgba(12, 11, 11, 0.7);
+    height: 390px;
+    display: flex;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border: #1c1a19 1px solid;
     line-height: 30px;
     width: 369px;
     margin: 0;
@@ -1095,22 +1165,24 @@ img:hover {
   }
 
   .project-section-img1 {
-    background-image: url(./images/placeholder3.png);
+    background-image: url(./images/coronaimage.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(22, 20, 20, 0.7);
     bottom: 0%;
     height: 390px;
     margin: 0;
     display: flex;
+    backdrop-filter: blur(4px);
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     width: 369px;
+    border: #1c1a19 1px solid;
     color: white;
     text-align: center;
     flex-direction: column;
@@ -1120,12 +1192,66 @@ img:hover {
   }
 
   .project-section-img3 {
-    background-image: url(./images/placeholder1.png);
+    background-image: url(./images/foodimage.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(22, 20, 20, 0.7);
+    bottom: 0%;
+    height: 390px;
+    margin: 0;
+    display: flex;
+    backdrop-filter: blur(4px);
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 369px;
+    border: #1c1a19 1px solid;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .project-section-img5 {
+    background-image: url(./images/cryptoimage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: rgba(22, 20, 20, 0.7);
+    bottom: 0%;
+    height: 390px;
+    margin: 0;
+    display: flex;
+    backdrop-filter: blur(4px);
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 369px;
+    border: #1c1a19 1px solid;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .project-section-img6 {
+    background-image: url(./images/foodimage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: rgba(17, 16, 16, 0.7);
     height: 390px;
     display: flex;
     font-family: 'Crete Round', serif;
@@ -1135,6 +1261,7 @@ img:hover {
     line-height: 30px;
     width: 369px;
     margin: 0;
+    border: #1c1a19 1px solid;
     color: white;
     text-align: center;
     flex-direction: column;
@@ -1161,7 +1288,25 @@ img:hover {
     font-weight: 400;
   }
 
-  .project-section-img3 h3 {
+  .project-section-img5 .paragraph {
+    width: 295px;
+    margin-bottom: 0;
+    padding-left: 24px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  .project-section-img6 .paragraph {
+    width: 295px;
+    margin-bottom: 0;
+    padding-left: 24px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  .project-section-img6 h3 {
     font-family: 'Crete Round', serif;
     font-weight: 500;
     font-size: 28px;
@@ -1172,7 +1317,8 @@ img:hover {
     padding-left: 10px;
   }
 
-  .project-section-img p {
+  .project-section-img p,
+  .project-section-img4 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1209,8 +1355,9 @@ img:hover {
     margin-top: 7px;
     padding: px;
     border: none;
-    transform: translateY(2px);
-    width: 331px;
+    transform: translateY(4px);
+
+    /* width: 331px; */
   }
 
   .about-me {
