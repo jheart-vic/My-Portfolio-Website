@@ -203,9 +203,9 @@ const card3Paragraph = document.createElement('p');
 card3Paragraph.className = 'paragraph';
 card3Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
 const card3Btn = document.createElement('div');
-card3Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
-     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
-     <button type="button" class="button"><span>Ruby</span></button>`;
+card3Btn.innerHTML = `<button type="button" class="button"><span>Ruby</span></button>
+     <button type="button" class="button"><span class="big-span">Bootstrap</span></button>
+     <button type="button" class="button"><span>Rails</span></button>`;
 const card3Btn2 = document.createElement('button');
 card3Btn2.className = 'project-btn2';
 card3Btn2.onclick = () => popUpDiv(3);
@@ -224,9 +224,9 @@ const card4Paragraph = document.createElement('p');
 card4Paragraph.className = 'paragraph';
 card4Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
 const card4Btn = document.createElement('div');
-card4Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
-     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
-     <button type="button" class="button"><span>Ruby</span></button>`;
+card4Btn.innerHTML = `<button type="button" class="button"><span>React</span></button>
+     <button type="button" class="button"><span class="big-span">Bootstrap</span></button>
+     <button type="button" class="button"><span>CSS</span></button>`;
 const card4Btn2 = document.createElement('button');
 card4Btn2.className = 'project-btn2';
 card4Btn2.onclick = () => popUpDiv(4);
@@ -246,8 +246,8 @@ card5Paragraph.className = 'paragraph';
 card5Paragraph.textContent = "A daily selection of privately personalized reads no accounts or sign-ups required. has been the industry's standard";
 const card5Btn = document.createElement('div');
 card5Btn.innerHTML = `<button type="button" class="button"><span>Html</span></button>
-     <button type="button" class="button"><span class="big-span">bootstrap</span></button>
-     <button type="button" class="button"><span>Ruby</span></button>`;
+     <button type="button" class="button"><span class="big-span">JavaScript</span></button>
+     <button type="button" class="button"><span>CSS</span></button>`;
 const card5Btn2 = document.createElement('button');
 card5Btn2.className = 'project-btn2';
 card5Btn2.onclick = () => popUpDiv(5);
@@ -256,7 +256,7 @@ card5.appendChild(card5Heading);
 card5.appendChild(card5Paragraph);
 card5.appendChild(card5Btn);
 card5.appendChild(card5Btn2);
-// end of card 6
+// end of card 5
 cardWrap.appendChild(card0);
 cardWrap.appendChild(card1);
 cardWrap.appendChild(card2);
